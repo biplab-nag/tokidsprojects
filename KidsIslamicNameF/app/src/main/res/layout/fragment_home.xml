@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.HomeFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg3"
+                android:id="@+id/buttonN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Names"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg2"
+                android:id="@+id/buttonH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Health Standard"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg1"
+                android:id="@+id/buttonG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Graph View"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

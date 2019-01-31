@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.health.HealthFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg2"
+                android:id="@+id/buttonBoysH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Boys Health Standard"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg1"
+                android:id="@+id/buttonGirlsH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Girls Health Standard"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

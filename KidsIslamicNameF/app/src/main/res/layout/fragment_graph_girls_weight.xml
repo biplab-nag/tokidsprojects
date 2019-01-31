@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.graph.GraphGirlsWeightFragment">
+
+    <TextView
+        android:gravity="center|top"
+        android:text="Weight Graph > Girls"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="HardcodedText" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+        android:outlineSpotShadowColor="@color/colorPrimary"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bargraph2"
+        tools:ignore="MissingConstraints">
+
+    </com.github.mikephil.charting.charts.BarChart>
+
+</FrameLayout>

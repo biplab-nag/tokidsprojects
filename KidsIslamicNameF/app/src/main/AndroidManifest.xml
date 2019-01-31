@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.biplab.dcl.tokidsproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.HeightGraphBoyes" />
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.WeightGraphBoyes" />
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.HeightGraphMain" />
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.WeightGraphMain" />
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.HeightGraph" />
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.WeightGraph" />
+        <activity
+            android:name="com.biplab.dcl.tokidsproject.oldversioncode.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+
+        </activity>
+        <activity
+            android:name="com.biplab.dcl.tokidsproject.oldversioncode.BoysName"
+            android:label="@string/title_activity_boys_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.biplab.dcl.tokidsproject.oldversioncode.GirlsName"
+            android:label="@string/title_activity_girls_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:parentActivityName="com.biplab.dcl.tokidsproject.HomeActivity"
+            android:name="com.biplab.dcl.tokidsproject.fragments.name.BoyesNameDetails"
+            android:label="@string/title_activity_boyes_name_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:parentActivityName="com.biplab.dcl.tokidsproject.HomeActivity"
+            android:name="com.biplab.dcl.tokidsproject.fragments.name.GirlsDetails"
+            android:label="@string/title_activity_girls_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.biplab.dcl.tokidsproject.oldversioncode.BoysFlowchart"
+            android:label="@string/title_activity_boys_flowchart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.GirlsFlowchart" />
+        <activity android:name="com.biplab.dcl.tokidsproject.oldversioncode.HelthProfile" />
+        <activity
+            android:name="com.biplab.dcl.tokidsproject.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

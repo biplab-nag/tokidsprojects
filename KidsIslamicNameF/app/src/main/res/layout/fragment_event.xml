@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.event.EventFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg2"
+                android:id="@+id/buttonNew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Create New" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg1"
+                android:id="@+id/buttonToday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Todays Event" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBg1"
+                android:id="@+id/buttonAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="All Event" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

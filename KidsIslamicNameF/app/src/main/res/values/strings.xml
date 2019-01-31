@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ToKidsProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_boys_name">BoysName</string>
+    <string name="title_activity_girls_name">GirlsName</string>
+    <string name="title_activity_boyes_name_details">BoyesNameDetails</string>
+    <string name="title_activity_girls_details">GirlsDetails</string>
+    <string name="title_activity_boys_flowchart">BoysFlowchart</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ToKidsProject</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_navigtion">Navigtion</string>
+    <string name="title_activity_home">ToKidsProject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="planets_array">
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+
+</resources>

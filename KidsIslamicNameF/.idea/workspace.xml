@@ -22,207 +22,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d63974-930b-4b45-b975-c881d1921ade" name="Default Changelist" comment="heighlighted graph added and profile update">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/AppNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/NotificationReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_boy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_eventadd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_eventall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_eventtoday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_weight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/nav_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/nav_event.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/nav_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/nav_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/nav_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/nav_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/nav_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/top_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_boy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_eventadd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_eventall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_eventtoday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_weight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/nav_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/nav_event.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/nav_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/nav_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/nav_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/nav_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/nav_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/top_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_boy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_eventadd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_eventall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_eventtoday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_weight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nav_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nav_event.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nav_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nav_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nav_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nav_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nav_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/top_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_boy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_eventadd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_eventall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_eventtoday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_weight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nav_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nav_event.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nav_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nav_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nav_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nav_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nav_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/top_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_boy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_eventadd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_eventall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_eventtoday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_weight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/nav_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/nav_event.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/nav_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/nav_health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/nav_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/nav_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/nav_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/top_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/trash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/biplab/dcl/tokidprojects/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/biplab/finalversion/tokidprojects/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/biplab/finalversion/tokidprojects/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/apps/finalversion/tokidprojects/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/HomeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/database/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/DatabaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/database/DatabaseSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/DatabaseSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/database/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/database/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/database/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/event/EventAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/event/EventAllFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventAllFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/event/EventFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/event/EventNewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventNewFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/event/EventTodayFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventTodayFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/graph/GraphBoyHeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphBoyHeightFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/graph/GraphBoyWeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphBoyWeightFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/graph/GraphFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/graph/GraphGirlsHeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphGirlsHeightFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/graph/GraphGirlsWeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphGirlsWeightFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/graph/GraphMainHeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphMainHeightFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/graph/GraphMainWeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphMainWeightFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/health/HealthFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/health/HealthMainBoyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthMainBoyFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/health/HealthMainGirlFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthMainGirlFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/home/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/name/BoyesNameDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/BoyesNameDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/name/GirlsDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/GirlsDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/name/NameBoyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/NameBoyFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/name/NameFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/NameFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/name/NameGirlsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/NameGirlsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/profile/ProfileAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/profile/ProfileDetailsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileDetailsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/profile/ProfileEditFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileEditFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/profile/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/profile/ProfileNewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileNewFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/profile/UpdateAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/UpdateAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/BoysFlowchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/BoysFlowchart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/BoysName.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/BoysName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/GirlsFlowchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/GirlsFlowchart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/GirlsName.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/GirlsName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/HeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HeightGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/HeightGraphBoyes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HeightGraphBoyes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/HeightGraphMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HeightGraphMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/HelthProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HelthProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/WeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/WeightGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/WeightGraphBoyes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/WeightGraphBoyes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/oldversioncode/WeightGraphMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/WeightGraphMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_boyes_name_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_boyes_name_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_girls_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_girls_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_today.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_today.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_boy_height.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_boy_height.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_boy_weight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_boy_weight.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_girls_height.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_girls_height.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_girls_weight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_girls_weight.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_main_height.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_main_height.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_main_weight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_main_weight.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_health.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_health.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_health_main_boy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_health_main_boy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_health_main_girl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_health_main_girl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_name.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_edit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rows_event_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rows_event_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rows_profile_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rows_profile_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rows_update_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rows_update_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_home_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_home_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/database/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/DatabaseSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/database/DatabaseSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/database/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/database/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/database/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventAllFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventAllFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventNewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventNewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventTodayFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventTodayFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphBoyHeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphBoyHeightFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphBoyWeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphBoyWeightFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphGirlsHeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphGirlsHeightFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphGirlsWeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphGirlsWeightFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphMainHeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphMainHeightFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphMainWeightFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphMainWeightFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/health/HealthFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthMainBoyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/health/HealthMainBoyFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthMainGirlFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/health/HealthMainGirlFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/home/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/BoyesNameDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/BoyesNameDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/GirlsDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/GirlsDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/NameBoyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/NameBoyFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/NameFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/NameFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/NameGirlsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/NameGirlsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/AppNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/notification/AppNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/NotificationReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/notification/NotificationReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/notification/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/profile/ProfileAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileDetailsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/profile/ProfileDetailsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileEditFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/profile/ProfileEditFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/profile/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/ProfileNewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/profile/ProfileNewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/profile/UpdateAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/profile/UpdateAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/BoysFlowchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/BoysFlowchart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/BoysName.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/BoysName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/GirlsFlowchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/GirlsFlowchart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/GirlsName.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/GirlsName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/HeightGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HeightGraphBoyes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/HeightGraphBoyes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HeightGraphMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/HeightGraphMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/HelthProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/HelthProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/WeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/WeightGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/WeightGraphBoyes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/WeightGraphBoyes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/oldversioncode/WeightGraphMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/oldversioncode/WeightGraphMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/biplab/dcl/tokidprojects/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/biplab/finalversion/tokidprojects/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/biplab/finalversion/tokidprojects/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/apps/finalversion/tokidprojects/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -243,32 +98,33 @@
         <counts>
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="gradle" value="5" />
+          <entry key="gradle" value="6" />
           <entry key="java" value="131" />
           <entry key="png" value="2" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="88" />
+          <entry key="xml" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Groovy" value="5" />
+          <entry key="Groovy" value="6" />
           <entry key="Image" value="2" />
           <entry key="JAVA" value="131" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="88" />
+          <entry key="XML" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -292,10 +148,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -365,18 +221,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/database/DatabaseSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/notification/NotificationReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/notification/NotificationService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/event/EventNewFragment.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/NotificationService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_new.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="77" />
     <option name="y" value="27" />
     <option name="width" value="1269" />
@@ -385,33 +241,23 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <hideEmptyPackages AndroidView="true" />
+      <hideEmptyPackages AndroidView="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="KidsIslamicNameF" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
             </path>
             <path>
               <item name="KidsIslamicNameF" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="KidsIslamicNameF" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="KidsIslamicNameF" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="resources" type="f7eae187:NonAndroidSourceTypeNode" />
             </path>
             <path>
               <item name="KidsIslamicNameF" type="1abcf292:AndroidViewProjectNode" />
@@ -421,9 +267,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,7 +374,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="702" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="702" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -546,7 +391,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32867134" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.5" />
+      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32867134" />
@@ -567,66 +412,66 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_event_all.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_event_today.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_event_new.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_event.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="198" column="19" lean-forward="true" selection-start-line="9" selection-end-line="199" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphGirlsHeightFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphGirlsHeightFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphBoyHeightFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphBoyHeightFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphMainWeightFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphMainWeightFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/graph/GraphMainHeightFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/graph/GraphMainHeightFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
@@ -634,92 +479,92 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_main_weight.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="131" column="62" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_main_height.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="146" selection-start-line="9" selection-end-line="146" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_boy_height.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_boy_weight.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_girls_height.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_graph_girls_weight.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_graph.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="146" selection-start-line="9" selection-end-line="146" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_health_main_girl.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_health_main_boy.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/health/HealthFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthMainBoyFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/health/HealthMainBoyFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1322">
           <caret line="129" column="35" lean-forward="true" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/health/HealthMainGirlFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/health/HealthMainGirlFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1455">
           <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
@@ -727,22 +572,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_home_drawer.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_boyes_name_details.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/BoyesNameDetails.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/BoyesNameDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="67" column="59" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="59" />
@@ -750,21 +595,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_girls_details.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="130" column="47" selection-start-line="130" selection-start-column="47" selection-end-line="130" selection-end-column="47" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/GirlsDetails.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/GirlsDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="54" column="54" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/name/NameFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/name/NameFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
@@ -772,139 +617,121 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_name_boy.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_health.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="146" selection-start-line="9" selection-end-line="146" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_name.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_edit.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_details.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rows_update_item.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rows_profile_item.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/dcl/tokidprojects/fragments/notification.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventTodayFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventTodayFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/AppNotification.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/notification/AppNotification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/database/DatabaseSource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/database/DatabaseSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="149" column="88" selection-start-line="149" selection-start-column="88" selection-end-line="149" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/NotificationReceiver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/notification/NotificationReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventAllFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventAllFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/event/EventNewFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/event/EventNewFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1312">
           <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/HomeActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#425#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/biplab/finalversion/tokidprojects/fragments/notification/NotificationService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/finalversion/tokidprojects/fragments/notification/NotificationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
@@ -924,25 +751,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="232" column="60" lean-forward="true" selection-start-line="232" selection-start-column="60" selection-end-line="232" selection-end-column="60" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_new.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#1597#1615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>

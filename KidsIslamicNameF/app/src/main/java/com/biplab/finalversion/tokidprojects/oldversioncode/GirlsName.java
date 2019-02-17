@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.oldversioncode;
+package com.biplab.finalversion.tokidprojects.oldversioncode;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +13,8 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.name.GirlsDetails;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.name.GirlsDetails;
 
 import java.util.ArrayList;
 import java.util.List;

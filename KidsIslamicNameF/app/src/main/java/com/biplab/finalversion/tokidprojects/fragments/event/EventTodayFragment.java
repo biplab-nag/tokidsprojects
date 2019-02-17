@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.event;
+package com.biplab.finalversion.tokidprojects.fragments.event;
 
 
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.database.DatabaseSource;
-import com.biplab.dcl.tokidprojects.fragments.database.Event;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.database.DatabaseSource;
+import com.biplab.finalversion.tokidprojects.fragments.database.Event;
 
 import java.util.ArrayList;
 import java.util.Calendar;

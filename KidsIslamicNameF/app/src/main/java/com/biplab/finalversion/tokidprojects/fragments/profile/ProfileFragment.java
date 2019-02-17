@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.profile;
+package com.biplab.finalversion.tokidprojects.fragments.profile;
 
 
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.database.DatabaseSource;
-import com.biplab.dcl.tokidprojects.fragments.database.Profile;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.database.DatabaseSource;
+import com.biplab.finalversion.tokidprojects.fragments.database.Profile;
 
 import java.util.ArrayList;
 

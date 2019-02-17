@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects;
+package com.biplab.finalversion.tokidprojects;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

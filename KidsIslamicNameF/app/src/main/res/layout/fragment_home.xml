@@ -3,58 +3,251 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorOffWhite"
     tools:context=".fragments.home.HomeFragment">
 
     <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorOffWhite"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="UselessParent">
+
         <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <Button
-                android:layout_margin="15dp"
-                android:textSize="22sp"
-                android:textColor="@color/colorWhite"
-                android:background="@color/colorBg3"
-                android:id="@+id/buttonN"
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Names"
-                tools:ignore="HardcodedText" />
+                tools:ignore="DisableBaselineAlignment">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+                        app:cardBackgroundColor="@color/colorWhite"
+                        android:layout_margin="10dp"
+                        app:cardElevation="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:ignore="UseCompoundDrawables">
+                            <ImageView
+                                android:src="@drawable/logo"
+                                android:layout_gravity="center"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                tools:ignore="ContentDescription" />
+                            <TextView
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="ToKidsApp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
         </LinearLayout>
+
         <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <Button
-                android:layout_margin="15dp"
-                android:textSize="22sp"
-                android:textColor="@color/colorWhite"
-                android:background="@color/colorBg2"
-                android:id="@+id/buttonH"
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Health Standard"
-                tools:ignore="HardcodedText" />
+                tools:ignore="DisableBaselineAlignment">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/buttonN"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        android:layout_margin="10dp"
+                        app:cardElevation="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:ignore="UseCompoundDrawables">
+                            <ImageView
+                                android:src="@drawable/icon_name"
+                                android:layout_gravity="center"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                tools:ignore="ContentDescription" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:gravity="center"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="Name Suggestion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/buttonH"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        android:layout_margin="10dp"
+                        app:cardElevation="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:ignore="UseCompoundDrawables">
+                            <ImageView
+                                android:src="@drawable/icon_health"
+                                android:layout_gravity="center"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                tools:ignore="ContentDescription" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:gravity="center"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="Health Standard"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
+
         <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <Button
-                android:layout_margin="15dp"
-                android:textSize="22sp"
-                android:textColor="@color/colorWhite"
-                android:background="@color/colorBg1"
-                android:id="@+id/buttonG"
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Graph View"
-                tools:ignore="HardcodedText" />
+                tools:ignore="DisableBaselineAlignment">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/buttonG"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        android:layout_margin="10dp"
+                        app:cardElevation="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:ignore="UseCompoundDrawables">
+                            <ImageView
+                                android:src="@drawable/icon_graph"
+                                android:layout_gravity="center"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                tools:ignore="ContentDescription" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:gravity="center"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="Health Graph"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/buttonE"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        android:layout_margin="10dp"
+                        app:cardElevation="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:ignore="UseCompoundDrawables">
+                            <ImageView
+                                android:src="@drawable/icon_eventall"
+                                android:layout_gravity="center"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                tools:ignore="ContentDescription" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:gravity="center"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="My Events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
 
 </FrameLayout>

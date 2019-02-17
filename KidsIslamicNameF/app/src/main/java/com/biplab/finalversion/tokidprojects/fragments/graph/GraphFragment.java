@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.graph;
+package com.biplab.finalversion.tokidprojects.fragments.graph;
 
 
 import android.os.Bundle;
@@ -8,9 +8,8 @@ import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
-import com.biplab.dcl.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.R;
 
 /**
  * A simple {@link Fragment} subclass.

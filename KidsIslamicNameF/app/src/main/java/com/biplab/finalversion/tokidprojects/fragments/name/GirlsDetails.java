@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.name;
+package com.biplab.finalversion.tokidprojects.fragments.name;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.biplab.dcl.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.R;
 
 public class GirlsDetails extends AppCompatActivity {
     TextView Namem,Bangla,Arabic;

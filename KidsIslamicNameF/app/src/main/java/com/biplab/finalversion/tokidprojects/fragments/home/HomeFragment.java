@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.home;
+package com.biplab.finalversion.tokidprojects.fragments.home;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,13 +7,12 @@ import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.event.EventFragment;
-import com.biplab.dcl.tokidprojects.fragments.graph.GraphFragment;
-import com.biplab.dcl.tokidprojects.fragments.health.HealthFragment;
-import com.biplab.dcl.tokidprojects.fragments.name.NameFragment;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.event.EventFragment;
+import com.biplab.finalversion.tokidprojects.fragments.graph.GraphFragment;
+import com.biplab.finalversion.tokidprojects.fragments.health.HealthFragment;
+import com.biplab.finalversion.tokidprojects.fragments.name.NameFragment;
 
 
 public class HomeFragment extends Fragment {

@@ -3,41 +3,146 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.GraphMainFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorOffWhite"
+    tools:context=".fragments.graph.GraphMainHeightFragment">
 
     <LinearLayout
+        android:layout_marginBottom="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="UselessParent">
+        android:layout_height="match_parent">
         <LinearLayout
-            android:layout_weight="1"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <Button
-                android:layout_margin="15dp"
-                android:textSize="22sp"
-                android:textColor="@color/colorWhite"
-                android:background="@color/colorBg2"
-                android:id="@+id/buttonBoy"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal"
+                android:text="Height Graph"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Boys" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <Button
-                android:layout_margin="15dp"
-                android:textSize="22sp"
-                android:textColor="@color/colorWhite"
-                android:background="@color/colorBg1"
-                android:id="@+id/buttonGirl"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Girls" />
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="DisableBaselineAlignment">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/buttonBoy"
+                            app:cardBackgroundColor="@color/colorWhite"
+                            android:layout_margin="10dp"
+                            app:cardElevation="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                tools:ignore="UseCompoundDrawables">
+                                <ImageView
+                                    android:src="@drawable/icon_boy"
+                                    android:layout_gravity="center"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    tools:ignore="ContentDescription" />
+                                <TextView
+                                    android:textSize="20sp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Boys Height Graph"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="DisableBaselineAlignment">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/buttonGirl"
+                            app:cardBackgroundColor="@color/colorWhite"
+                            android:layout_margin="10dp"
+                            app:cardElevation="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                tools:ignore="UseCompoundDrawables">
+                                <ImageView
+                                    android:src="@drawable/icon_girl"
+                                    android:layout_gravity="center"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    tools:ignore="ContentDescription" />
+                                <TextView
+                                    android:textSize="20sp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Girls Height Graph"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
     </LinearLayout>
+
 </FrameLayout>

@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.name;
+package com.biplab.finalversion.tokidprojects.fragments.name;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +15,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.R;
 
 import java.util.ArrayList;
 import java.util.List;

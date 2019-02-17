@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.database;
+package com.biplab.finalversion.tokidprojects.fragments.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,12 +6,9 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.biplab.dcl.tokidprojects.HomeActivity;
-import com.biplab.dcl.tokidprojects.fragments.notification.NotificationReceiver;
-import com.biplab.dcl.tokidprojects.fragments.notification.NotificationService;
+import com.biplab.finalversion.tokidprojects.fragments.notification.NotificationReceiver;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 public class DatabaseSource {
 

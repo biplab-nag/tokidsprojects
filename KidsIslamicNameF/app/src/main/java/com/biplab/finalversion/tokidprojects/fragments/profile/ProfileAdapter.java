@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.profile;
+package com.biplab.finalversion.tokidprojects.fragments.profile;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.database.Profile;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.database.Profile;
 
 import java.util.ArrayList;
 

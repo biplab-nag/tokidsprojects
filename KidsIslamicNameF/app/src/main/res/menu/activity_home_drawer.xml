@@ -7,27 +7,27 @@
         <menu>
             <item
                 android:id="@+id/nav_home"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/nav_home"
                 android:title="Home" />
             <item
                 android:id="@+id/nav_names"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Names" />
+                android:icon="@drawable/nav_name"
+                android:title="Names Suggestion" />
             <item
                 android:id="@+id/nav_health"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/nav_health"
                 android:title="Health Standard" />
             <item
             android:id="@+id/nav_graph"
-            android:icon="@drawable/ic_menu_send"
-            android:title="Graph" />
+            android:icon="@drawable/nav_graph"
+            android:title="Health Graph" />
             <item
                 android:id="@+id/nav_event"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/nav_event"
                 android:title="Events" />
             <item
                 android:id="@+id/nav_profile"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/nav_profile"
                 android:title="Profile" />
         </menu>
     </item>

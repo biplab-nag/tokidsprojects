@@ -6,9 +6,10 @@
     tools:context=".fragments.graph.GraphGirlsHeightFragment">
 
     <TextView
+        android:textColor="@color/colorPrimaryDark"
         android:gravity="center|top"
         android:text="Height Graph > Girls"
-        android:textSize="15sp"
+        android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="HardcodedText" />

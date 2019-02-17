@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.event;
+package com.biplab.finalversion.tokidprojects.fragments.event;
 
 
 import android.app.DatePickerDialog;
@@ -16,11 +16,10 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.HomeActivity;
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.database.DatabaseSource;
-import com.biplab.dcl.tokidprojects.fragments.database.Event;
-import com.biplab.dcl.tokidprojects.fragments.notification.NotificationService;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.database.DatabaseSource;
+import com.biplab.finalversion.tokidprojects.fragments.database.Event;
+import com.biplab.finalversion.tokidprojects.fragments.notification.NotificationService;
 
 import java.util.Calendar;
 

@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.notification;
+package com.biplab.finalversion.tokidprojects.fragments.notification;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -7,19 +7,16 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.HomeActivity;
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.database.DatabaseSource;
-import com.biplab.dcl.tokidprojects.fragments.database.Event;
+import com.biplab.finalversion.tokidprojects.HomeActivity;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.database.DatabaseSource;
+import com.biplab.finalversion.tokidprojects.fragments.database.Event;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Timer;
-import java.util.TimerTask;
 
-import static com.biplab.dcl.tokidprojects.fragments.notification.AppNotification.CHANNEL_ID;
+import static com.biplab.finalversion.tokidprojects.fragments.notification.AppNotification.CHANNEL_ID;
 
 public class NotificationService extends Service {
 
@@ -56,19 +53,20 @@ public class NotificationService extends Service {
             }
         }
 
+        if (!input.equals("")){
+            Intent notificationIntent = new Intent(this, HomeActivity.class);
+            PendingIntent pendingIntent = PendingIntent.getActivity(this,
+                    0,notificationIntent,0);
 
-        Intent notificationIntent = new Intent(this, HomeActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this,
-                0,notificationIntent,0);
+            Notification notification = new NotificationCompat.Builder(this,CHANNEL_ID)
+                    .setContentTitle("Todays Event")
+                    .setContentText(input)
+                    .setSmallIcon(R.drawable.logo)
+                    .setContentIntent(pendingIntent)
+                    .build();
 
-        Notification notification = new NotificationCompat.Builder(this,CHANNEL_ID)
-                .setContentTitle("Todays Event")
-                .setContentText(input)
-                .setSmallIcon(R.drawable.logo)
-                .setContentIntent(pendingIntent)
-                .build();
-
-        startForeground(1,notification);
+            startForeground(1,notification);
+        }
 
 
         return START_NOT_STICKY;

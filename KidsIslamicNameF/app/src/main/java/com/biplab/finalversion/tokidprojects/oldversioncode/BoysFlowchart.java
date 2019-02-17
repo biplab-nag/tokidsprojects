@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.oldversioncode;
+package com.biplab.finalversion.tokidprojects.oldversioncode;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.R;
 
 public class BoysFlowchart extends AppCompatActivity {
 

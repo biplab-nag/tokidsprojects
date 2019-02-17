@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.health;
+package com.biplab.finalversion.tokidprojects.fragments.health;
 
 
 import android.os.Bundle;
@@ -15,7 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.R;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;

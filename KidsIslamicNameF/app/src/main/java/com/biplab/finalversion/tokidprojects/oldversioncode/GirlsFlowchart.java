@@ -1,9 +1,9 @@
-package com.biplab.dcl.tokidprojects.oldversioncode;
+package com.biplab.finalversion.tokidprojects.oldversioncode;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.biplab.dcl.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.R;
 
 public class GirlsFlowchart extends AppCompatActivity {
 

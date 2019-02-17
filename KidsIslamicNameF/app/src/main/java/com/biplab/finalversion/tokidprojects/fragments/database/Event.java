@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.fragments.database;
+package com.biplab.finalversion.tokidprojects.fragments.database;
 
 public class Event {
     private int id;

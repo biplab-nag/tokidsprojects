@@ -1,18 +1,17 @@
-package com.biplab.dcl.tokidprojects.fragments.event;
+package com.biplab.finalversion.tokidprojects.fragments.event;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.R;
-import com.biplab.dcl.tokidprojects.fragments.database.DatabaseSource;
-import com.biplab.dcl.tokidprojects.fragments.database.Event;
+import com.biplab.finalversion.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.fragments.database.DatabaseSource;
+import com.biplab.finalversion.tokidprojects.fragments.database.Event;
 
 import java.util.ArrayList;
 

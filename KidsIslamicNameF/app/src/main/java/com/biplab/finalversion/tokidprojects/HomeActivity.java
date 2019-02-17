@@ -1,6 +1,5 @@
-package com.biplab.dcl.tokidprojects;
+package com.biplab.finalversion.tokidprojects;
 
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
@@ -15,22 +14,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.WindowManager;
 
-import com.biplab.dcl.tokidprojects.fragments.database.DatabaseSource;
-import com.biplab.dcl.tokidprojects.fragments.database.Event;
-import com.biplab.dcl.tokidprojects.fragments.event.EventFragment;
-import com.biplab.dcl.tokidprojects.fragments.graph.GraphFragment;
-import com.biplab.dcl.tokidprojects.fragments.health.HealthFragment;
-import com.biplab.dcl.tokidprojects.fragments.home.HomeFragment;
-import com.biplab.dcl.tokidprojects.fragments.name.NameFragment;
-import com.biplab.dcl.tokidprojects.fragments.notification.NotificationReceiver;
-import com.biplab.dcl.tokidprojects.fragments.notification.NotificationService;
-import com.biplab.dcl.tokidprojects.fragments.profile.ProfileFragment;
+import com.biplab.finalversion.tokidprojects.fragments.database.DatabaseSource;
+import com.biplab.finalversion.tokidprojects.fragments.database.Event;
+import com.biplab.finalversion.tokidprojects.fragments.event.EventFragment;
+import com.biplab.finalversion.tokidprojects.fragments.graph.GraphFragment;
+import com.biplab.finalversion.tokidprojects.fragments.health.HealthFragment;
+import com.biplab.finalversion.tokidprojects.fragments.home.HomeFragment;
+import com.biplab.finalversion.tokidprojects.fragments.name.NameFragment;
+import com.biplab.finalversion.tokidprojects.fragments.notification.NotificationService;
+import com.biplab.finalversion.tokidprojects.fragments.profile.ProfileFragment;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

@@ -1,4 +1,4 @@
-package com.biplab.dcl.tokidprojects.oldversioncode;
+package com.biplab.finalversion.tokidprojects.oldversioncode;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.biplab.dcl.tokidprojects.R;
+import com.biplab.finalversion.tokidprojects.R;
 
 public class WeightGraphMain extends AppCompatActivity {
 

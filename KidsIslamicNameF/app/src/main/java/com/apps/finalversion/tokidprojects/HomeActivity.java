@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 
 import com.apps.finalversion.tokidprojects.fragments.database.DatabaseSource;
 import com.apps.finalversion.tokidprojects.fragments.database.Event;
@@ -133,6 +134,13 @@ public class HomeActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+
+        try {
+            InputMethodManager imm = (InputMethodManager)this.getSystemService(INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(this.getCurrentFocus().getWindowToken(), 0);
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
 
         if (id == R.id.nav_home)
         {

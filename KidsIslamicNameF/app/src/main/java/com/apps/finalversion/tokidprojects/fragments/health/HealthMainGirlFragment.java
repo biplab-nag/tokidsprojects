@@ -239,9 +239,12 @@ public class HealthMainGirlFragment extends Fragment {
         }
 
         else {
-            AgeM.setText("New Born Baby Boy");
-            WeigthM.setText("2.6 Kg");
-            HeigthM.setText("47.1 cm");
+            AgeM.setText("data not found");
+            WeigthM.setText("~ Kg");
+            HeigthM.setText("~ cm");
+
+            barChartH.highlightValue(-1,0);
+            barChart.highlightValue(-1,0);
         }
     }
 

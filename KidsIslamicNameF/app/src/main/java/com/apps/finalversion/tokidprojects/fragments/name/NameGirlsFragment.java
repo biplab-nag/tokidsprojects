@@ -130,7 +130,7 @@ public class NameGirlsFragment extends Fragment {
     private List<String> filterList(CharSequence query) {
         List<String> queryResult = new ArrayList<>(2);
         for (String name: data){
-            if (name.toLowerCase().contains(query.toString().toLowerCase())){
+            if (name.toLowerCase().startsWith(query.toString().toLowerCase())){
                 queryResult.add(name);
             }
         }

@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -77,7 +78,13 @@ public class HomeActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            showdialogbox();
+
+            if (getSupportFragmentManager().getBackStackEntryCount()>0){
+                getSupportFragmentManager().popBackStack();
+            }
+            else {
+                super.onBackPressed();
+            }
         }
 
 
@@ -146,42 +153,42 @@ public class HomeActivity extends AppCompatActivity
         {
             HomeFragment fragment = new HomeFragment();
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
             fragmentTransaction.commit();
         }
         else if (id == R.id.nav_names)
         {
             NameFragment fragment = new NameFragment();
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
             fragmentTransaction.commit();
         }
         else if (id == R.id.nav_health)
         {
             HealthFragment fragment = new HealthFragment();
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
             fragmentTransaction.commit();
         }
         else if (id == R.id.nav_graph)
         {
             GraphFragment fragment = new GraphFragment();
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
             fragmentTransaction.commit();
         }
         else if (id == R.id.nav_event)
         {
             EventFragment fragment = new EventFragment();
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
             fragmentTransaction.commit();
         }
         else if (id == R.id.nav_profile)
         {
             ProfileFragment fragment = new ProfileFragment();
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
             fragmentTransaction.commit();
         }
 

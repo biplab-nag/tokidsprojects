@@ -38,7 +38,7 @@ public class HealthFragment extends Fragment {
             public void onClick(View v) {
                 HealthMainBoyFragment fragment = new HealthMainBoyFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });
@@ -48,7 +48,7 @@ public class HealthFragment extends Fragment {
             public void onClick(View v) {
                 HealthMainGirlFragment fragment = new HealthMainGirlFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });

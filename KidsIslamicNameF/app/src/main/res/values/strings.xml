@@ -23,5 +23,6 @@
         <item>Boy</item>
         <item>Girl</item>
     </string-array>
+    <string name="title_activity_basic">BasicActivity</string>
 
 </resources>

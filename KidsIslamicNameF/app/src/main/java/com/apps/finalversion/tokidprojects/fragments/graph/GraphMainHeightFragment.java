@@ -40,7 +40,7 @@ public class GraphMainHeightFragment extends Fragment {
             public void onClick(View v) {
                 GraphBoyHeightFragment fragment = new GraphBoyHeightFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });
@@ -50,7 +50,7 @@ public class GraphMainHeightFragment extends Fragment {
             public void onClick(View v) {
                 GraphGirlsHeightFragment fragment = new GraphGirlsHeightFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });

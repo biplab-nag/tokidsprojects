@@ -65,7 +65,7 @@ public class EventTodayFragment extends Fragment {
 
         EventTodayFragment fragment = new EventTodayFragment();
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+        fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
         fragmentTransaction.commit();
     }
 

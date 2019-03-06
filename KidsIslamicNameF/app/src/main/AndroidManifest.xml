@@ -4,7 +4,7 @@
     package="com.apps.finalversion.tokidprojects">
 
     <application
-        android:name="com.apps.finalversion.tokidprojects.fragments.notification.AppNotification"
+        android:name=".fragments.notification.AppNotification"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -12,47 +12,52 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <receiver
-            android:name="com.apps.finalversion.tokidprojects.fragments.notification.NotificationReceiver"
-            android:enabled="false"
-            android:exported="false"></receiver>
-
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.HeightGraphBoyes" />
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.WeightGraphBoyes" />
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.HeightGraphMain" />
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.WeightGraphMain" />
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.HeightGraph" />
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.WeightGraph" />
         <activity
-            android:name="com.apps.finalversion.tokidprojects.oldversioncode.MainActivity"
-            android:label="@string/app_name"
+            android:name=".activity.BasicActivity"
+            android:label="@string/title_activity_basic"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <receiver
+            android:name=".fragments.notification.NotificationReceiver"
+            android:enabled="false"
+            android:exported="false" />
+
+        <activity android:name=".oldversioncode.HeightGraphBoyes" />
+        <activity android:name=".oldversioncode.WeightGraphBoyes" />
+        <activity android:name=".oldversioncode.HeightGraphMain" />
+        <activity android:name=".oldversioncode.WeightGraphMain" />
+        <activity android:name=".oldversioncode.HeightGraph" />
+        <activity android:name=".oldversioncode.WeightGraph" />
         <activity
-            android:name="com.apps.finalversion.tokidprojects.oldversioncode.BoysName"
+            android:name=".oldversioncode.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".oldversioncode.BoysName"
             android:label="@string/title_activity_boys_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.apps.finalversion.tokidprojects.oldversioncode.GirlsName"
+            android:name=".oldversioncode.GirlsName"
             android:label="@string/title_activity_girls_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.apps.finalversion.tokidprojects.fragments.name.BoyesNameDetails"
+            android:name=".fragments.name.BoyesNameDetails"
             android:label="@string/title_activity_boyes_name_details"
-            android:parentActivityName="com.apps.finalversion.tokidprojects.HomeActivity"
+            android:parentActivityName=".HomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.apps.finalversion.tokidprojects.fragments.name.GirlsDetails"
+            android:name=".fragments.name.GirlsDetails"
             android:label="@string/title_activity_girls_details"
-            android:parentActivityName="com.apps.finalversion.tokidprojects.HomeActivity"
+            android:parentActivityName=".HomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.apps.finalversion.tokidprojects.oldversioncode.BoysFlowchart"
+            android:name=".oldversioncode.BoysFlowchart"
             android:label="@string/title_activity_boys_flowchart"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.GirlsFlowchart" />
-        <activity android:name="com.apps.finalversion.tokidprojects.oldversioncode.HelthProfile" />
+        <activity android:name=".oldversioncode.GirlsFlowchart" />
+        <activity android:name=".oldversioncode.HelthProfile" />
         <activity
-            android:name="com.apps.finalversion.tokidprojects.HomeActivity"
+            android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -62,9 +67,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.apps.finalversion.tokidprojects.fragments.notification.NotificationService" />
-
-
+        <service android:name=".fragments.notification.NotificationService" />
     </application>
 
 </manifest>

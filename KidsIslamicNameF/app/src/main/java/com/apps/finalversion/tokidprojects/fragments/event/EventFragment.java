@@ -41,7 +41,7 @@ public class EventFragment extends Fragment {
             public void onClick(View v) {
                 EventNewFragment fragment = new EventNewFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });
@@ -50,7 +50,7 @@ public class EventFragment extends Fragment {
             public void onClick(View v) {
                 EventTodayFragment fragment = new EventTodayFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });
@@ -59,7 +59,7 @@ public class EventFragment extends Fragment {
             public void onClick(View v) {
                 EventAllFragment fragment = new EventAllFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });

@@ -39,7 +39,7 @@ public class GraphMainWeightFragment extends Fragment {
             public void onClick(View v) {
                 GraphBoyWeightFragment fragment = new GraphBoyWeightFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });
@@ -49,7 +49,7 @@ public class GraphMainWeightFragment extends Fragment {
             public void onClick(View v) {
                 GraphGirlsWeightFragment fragment = new GraphGirlsWeightFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });

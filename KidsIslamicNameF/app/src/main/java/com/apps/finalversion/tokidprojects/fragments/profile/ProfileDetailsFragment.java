@@ -115,7 +115,7 @@ public class ProfileDetailsFragment extends Fragment {
             public void onClick(View v) {
                 ProfileEditFragment fragment = new ProfileEditFragment(id);
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });
@@ -127,7 +127,7 @@ public class ProfileDetailsFragment extends Fragment {
 
                 ProfileFragment fragment = new ProfileFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });

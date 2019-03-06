@@ -61,7 +61,7 @@ public class ProfileFragment extends Fragment {
                 Profile profile= profiles.get(position);
                 ProfileDetailsFragment fragment = new ProfileDetailsFragment(profile.getId());
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
 
 
@@ -73,7 +73,7 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v) {
                 ProfileNewFragment fragment = new ProfileNewFragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+                fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
                 fragmentTransaction.commit();
             }
         });

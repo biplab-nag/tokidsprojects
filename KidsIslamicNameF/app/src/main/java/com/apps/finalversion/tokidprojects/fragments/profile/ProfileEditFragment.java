@@ -160,7 +160,7 @@ public class ProfileEditFragment extends Fragment {
         if (check){
             ProfileDetailsFragment fragment = new ProfileDetailsFragment(id);
             FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment);
+            fragmentTransaction.replace(R.id.mainFragmentContainer,fragment).addToBackStack("my_fargment");
             fragmentTransaction.commit();
         }
         else {
